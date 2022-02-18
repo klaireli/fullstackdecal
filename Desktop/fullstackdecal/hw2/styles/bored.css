@@ -1,0 +1,21 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bored-button {
+  cursor: pointer;
+}
+
+#card {
+  display: flexbox;
+  background-color: beige;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
