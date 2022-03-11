@@ -96,7 +96,7 @@ const getCaption = (predictions) => {
 // BEGIN PART 8
 // "input" is current undefined, since it hasn't been initialized yet.
 // Initialize it here to the appropriate element on the HTML document.
-const input = document.getElementById("card");
+const input = document.getElementById("mg-upload");
 input.addEventListener("change", (event) => {
     const caption = document.getElementById("caption");
     caption.replaceChildren();
