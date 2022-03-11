@@ -4,10 +4,10 @@ import { dijkstra, getNodesInShortestPathOrder } from "../algorithms/dijkstra";
 
 import "./PathfindingVisualizer.css";
 
-const START_NODE_ROW = 0;
-const START_NODE_COL = 0;
-const FINISH_NODE_ROW = 19;
-const FINISH_NODE_COL = 49;
+const START_NODE_ROW = Math.floor(Math.random() * 15);
+const START_NODE_COL = Math.floor(Math.random() * 20);
+const FINISH_NODE_ROW = Math.floor(Math.random() * 15);
+const FINISH_NODE_COL = Math.floor(Math.random() * 20);
 
 const PathfindingVisualizer = () => {
   // BEGIN PART 5
